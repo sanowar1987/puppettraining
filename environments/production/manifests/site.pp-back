@@ -1,0 +1,14 @@
+
+node 'node1' {
+	notify { 'message1':
+		message => "Hi sanoar",
+	} 
+}
+node 'node2'{
+} 
+node default {
+        notify { 'message1':
+                message => "Hi sanoar",
+        }
+}
+
